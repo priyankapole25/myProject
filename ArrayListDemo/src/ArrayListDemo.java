@@ -9,7 +9,11 @@ public class ArrayListDemo {
 		list.add("priyanka");
 		list.add("sonali");
 		list.add("swapnil");
-		System.out.println(list);
+		for(String s:list)
+		{
+			System.out.println(s);
+		}
+		
 	}
 
 }
